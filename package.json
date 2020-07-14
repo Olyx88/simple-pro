@@ -1,10 +1,11 @@
 {
   "name": "simple-pro",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev-start": "nodemon --exec babel-node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,15 +18,10 @@
   },
   "homepage": "https://github.com/Olyx88/simple-pro#readme",
   "dependencies": {
-    "babel-node": "0.0.1-security",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "form-data": "^3.0.0",
     "joi": "^14.3.1",
-    "mongoose": "^5.9.22",
-    "nodemon": "^2.0.4",
-    "server": "^1.0.29"
-  },
-  "devDependencies": {},
-  "description": ""
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.22"
+  }
 }

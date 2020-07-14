@@ -1,2 +1,2 @@
-var p = 13;
-console.log('Answer:',p);
+const b="hello";
+console.log(b);
